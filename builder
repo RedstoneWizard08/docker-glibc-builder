@@ -22,6 +22,7 @@ main() {
 		--prefix="$prefix" \
 		--libdir="$prefix/lib" \
 		--libexecdir="$prefix/lib" \
+		--enable-multi-arch \
 		--enable-stack-protector=strong
 	
 	echo "Building..."
